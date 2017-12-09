@@ -9,12 +9,12 @@ public class cylinderCollision : MonoBehaviour {
    
     void OnTriggerEnter(Collider collision)
     {
-        Debug.Log("hit");
+//        Debug.Log("hit");
 
         if (collision.gameObject.tag == "square")
         {
             Destroy(collision.gameObject);
-            Debug.Log("cylinder collision hit");
+ //           Debug.Log("cylinder collision hit");
         }
     }
 }
