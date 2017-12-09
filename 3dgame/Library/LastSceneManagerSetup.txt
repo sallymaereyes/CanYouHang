@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/platform_movingblock.unity
+  isLoaded: 1
+  isActive: 1
