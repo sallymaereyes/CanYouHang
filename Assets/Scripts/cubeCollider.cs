@@ -14,6 +14,7 @@ public class cubeCollider : MonoBehaviour {
 
         if (collision.gameObject.tag == "cube")
         {
+			ScoreCount.score = ScoreCount.score + .5;
             Debug.Log("cube collision hit");
             //count = count++;
             //scoreLabel.text = "Score" + count;

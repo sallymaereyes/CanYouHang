@@ -14,6 +14,7 @@ public class sphereCollider : MonoBehaviour {
 
         if (collision.gameObject.tag == "sphere")
         {
+			ScoreCount.score = ScoreCount.score + .5;
             Debug.Log("sphere collision hit");
             //count = count++;
             //scoreLabel.text = "Score" + count;

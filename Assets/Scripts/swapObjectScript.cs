@@ -23,7 +23,7 @@ public class swapObjectScript : MonoBehaviour {
 	private void Update () {
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            Debug.Log("left arrow hit");
+ //           Debug.Log("left arrow hit");
             num--;
             if (num < 0)
             {

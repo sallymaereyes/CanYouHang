@@ -14,6 +14,7 @@ public class capsuleCollider : MonoBehaviour {
 
         if (collision.gameObject.tag == "capsule")
         {
+			ScoreCount.score = ScoreCount.score + .5;
             Debug.Log("capsule collision hit");
             //count = count++;
             //scoreLabel.text = "Score" + count;
