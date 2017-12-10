@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - square
+  - capsule
+  - sphere
+  - cube
   layers:
   - Default
   - TransparentFX
@@ -14,7 +16,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - background
   - 
   - 
   - 
@@ -41,4 +43,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2511298317
     locked: 0
