@@ -11,7 +11,7 @@ public class spawnScript : MonoBehaviour {
     public GameObject beer;
     public GameObject wine;
     // Use this for initialization
-    private float timeToSpawn = 0f;
+    private float timeToSpawn = 2f;
     private float timeBetweenWaves = 2f;
 
     // Use this for initialization
@@ -25,12 +25,14 @@ public class spawnScript : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (Time.time >= timeToSpawn)
+        if (gameoverScript.gameover == false)
         {
-            SpawnBlocks();
-            timeToSpawn = Time.time + timeBetweenWaves;
+            if (Time.time >= timeToSpawn)
+            {
+                SpawnBlocks();
+                timeToSpawn = Time.time + timeBetweenWaves;
+            }
         }
-
     }
     void SpawnBlocks()
     {
