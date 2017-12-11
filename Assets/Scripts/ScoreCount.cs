@@ -20,5 +20,5 @@ public class ScoreCount : MonoBehaviour {
 		if (Input.GetKeyDown(KeyCode.UpArrow))
 			Debug.Log (score);
 			_scoreUI.text = "Score: \n" + score;
-	}
+    }
 }
