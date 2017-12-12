@@ -43,7 +43,7 @@ public class spawnScript : MonoBehaviour {
         {
             if (randomIndex != i)
             {
-                Instantiate(prefabList[prefabIndex], spawnPoints[randomIndex].position, Quaternion.identity);
+                Instantiate(prefabList[prefabIndex], spawnPoints[randomIndex].position, Quaternion.Euler(-90,-150,0));
             }
         }
     }

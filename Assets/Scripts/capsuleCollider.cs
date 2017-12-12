@@ -9,10 +9,8 @@ public class capsuleCollider : MonoBehaviour {
     void Start() {
 
     }
-
     void OnTriggerEnter(Collider collision)
     {
-
         if (collision.gameObject.tag == "capsule")
         {
             ScoreCount.score = ScoreCount.score + .5;
