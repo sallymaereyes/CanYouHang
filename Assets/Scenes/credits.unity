@@ -281,6 +281,7 @@ GameObject:
   - component: {fileID: 957449156}
   - component: {fileID: 957449155}
   - component: {fileID: 957449154}
+  - component: {fileID: 957449159}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -358,6 +359,86 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &957449159
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 957449153}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9b8a0bec3643d7d45a756a05b803b3a3, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &1008004577
 GameObject:
   m_ObjectHideFlags: 0
@@ -499,8 +580,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -37.699997, y: -7.7}
-  m_SizeDelta: {x: 130, y: 180}
+  m_AnchoredPosition: {x: -56, y: -40}
+  m_SizeDelta: {x: 200, y: 350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1379174695
 MonoBehaviour:
@@ -534,24 +615,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Programmers:
-
-
-    Art:
-
-
-    Sound:
-
-
-    Graphics:
-
-
-    Animations:
-
-
-    Extras:
-
-'
+  m_Text: "Programmers:\n\nEnvironment Scenes: \n\n\n\n\n3D Models:\n\n\n\n\n\nFonts:\n\nAudio:"
 --- !u!222 &1379174696
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -590,8 +654,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31.8, y: -7.6000004}
-  m_SizeDelta: {x: 170, y: 180}
+  m_AnchoredPosition: {x: 60, y: -40}
+  m_SizeDelta: {x: 350, y: 350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1422333695
 MonoBehaviour:
@@ -625,7 +689,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Tori, Victoria, Timothy, Sallymae
+  m_Text: "Tori, Victoria, Timothy, Sallymae\n\nMorgue Room: Rokay3D - Unity Asset
+    Store\r\nPirate Pack: VDGames - Unity Asset Store\r\nMenu Chalk Board: LunarCats
+    Studio - Unity Asset Store\r\n\nDrink Glasses: Must Dash Productions \u2013 Unity
+    Asset Store\nArcade Games: AurynSky - Unity Asset Store\r\nSnack Machine: VIS
+    GAmes - Unity Asset Store\r\nBeer Mug: clearancewood \u2013 Clip Art/Sallymae
+    Reyes\n\nDK Midnight Chalker: Hanoded \u2013 Free Fonts\n\nRihanna \u2013 Pour
+    it up\nKendrick Lamar - Swimming Pools\n\n\n\n\n\n\n\n"
 --- !u!222 &1422333696
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -904,7 +974,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: menu
+          m_StringArgument: Main Menu
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,

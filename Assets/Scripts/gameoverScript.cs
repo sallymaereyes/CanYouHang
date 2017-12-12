@@ -8,6 +8,8 @@ public class gameoverScript : MonoBehaviour {
 
     public void Retry()
     {
+        gameover = false;
+        ScoreCount.score = 0;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Debug.Log("retry button pressed");
 
